@@ -1,0 +1,6 @@
+{
+    "name": "kex-platform",
+    "url": "https://github.com/sh-dave/kex-platform.git",
+    "classPath": "src",
+    "license": "zlib"
+}
