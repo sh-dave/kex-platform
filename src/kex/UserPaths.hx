@@ -5,7 +5,7 @@ class UserPaths {
 // TODO (DK) why is this `!macro` crap needed?
 #if !macro
  #if kha_debug_html5
-		return js.Syntax.code("require('electron').remote.require('os').homedir()");
+		return js.Syntax.code("electron.os.homedir()");
  #elseif (kha_linux || kha_macos)
 		return Sys.getEnv('HOME');
  #else
